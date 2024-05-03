@@ -1,0 +1,648 @@
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --gray-color: #888;
+}
+
+.blue {
+    color: #0075ff;
+}
+
+
+
+.facebook {
+    color: #1877f2;
+}
+
+.youtube {
+    color: #ff0000;
+}
+
+.linked-in {
+    color: #0077b5;
+}
+
+.blue-color {
+    color: #0075ff;;
+}
+
+.blue-bg-color {
+    background-color: #cce3ff;
+}
+
+.blue-alt-color {
+    color: #0d69d5;;
+}
+
+.blue-alt-bg-color {
+    background-color: #0d69d5;;
+}
+
+.darkblue-bg-color {
+    background-color: #0d69d5;;
+}
+
+.orange-color {
+    color: #f59e0b;
+}
+
+.orange-bg-color {
+    background-color: #fdecce;
+}
+
+.darkorange-bg-color {
+    background-color: #f59e0b;
+}
+
+.green-color {
+    color: #22c55e;;
+}
+
+.green-bg-color {
+    background-color: #d3f3df;
+}
+.darkgreen-bg-color {
+    background-color: #22c55e;
+}
+
+.red-color {
+    color: #f44336;;
+}
+
+.red-bg-color {
+    background-color: #f44336;;
+}
+
+.gray-color {
+    color: #888;;
+}
+
+.gray-bg-color {
+    background-color: #888;;
+}
+
+.bakground {
+    color: #eeeeee;
+}
+
+.bakground-bg {
+    background-color: #eeeeee;
+}
+
+.input-disabled-bg-color {
+    background-color: #f0f4f8;
+}
+
+.rating-color {
+    color: #f59e0b;
+}
+/*-------------------------------------------------------display */
+
+.d-flex {
+    display: flex;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.d-flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-basis {
+    flex-basis: 20%;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-grid-column {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.display-block {
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .d-block {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .flex-column-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.align-center {
+    align-items: center;
+}
+
+.just-space-between {
+    justify-content: space-between;
+}
+
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-column-start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.flex-column-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.align-self {
+    align-self: center;
+}
+/*-----------------------------------------------------------------------------------------padding*/
+.p-20 {
+    padding: 20px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.padding-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.padding-bottom-5 {
+    padding-bottom: 5px;
+}
+
+.p-right {
+    padding-right: 20px;
+}
+
+.p-right-40 {
+    padding-right: 40px;
+}
+
+.p-left {
+    padding-left: 20px;
+}
+
+.p-bottom {
+    padding-bottom: 20px;
+}
+
+.p-top {
+    padding-bottom: 20px;
+}
+
+.p-top-80 {
+    padding-top: 80px;
+}
+
+.p-top-20 {
+    padding-top: 20px;
+}
+
+/*-----------------------------------------------------------------------------------------margin-----------------------*/
+.m-0 {
+    margin-top: 0;
+}
+
+.margin-around-30-20 {
+    margin: 30px 20px 20px 20px;
+}
+.margin-around-50-20 {
+    margin: 50px 20px 20px 20px;
+}
+
+.margin-left-20 {
+    margin-left: 50px;
+}
+
+.margin-left-50 {
+    margin-left: 40px;
+}
+
+.margin-left--0020 {
+    margin-left: 20px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.m-20-10 {
+    margin: 20px 20px 5px;
+}
+
+.m-10 {
+    margin: 10px 20px;
+}
+
+.margin-100 {
+    margin: 100px;
+}
+
+.margin-tob-bottom {
+    margin: 5px 0;
+}
+
+.margin-tob-bottom-50 {
+    margin: 50px 20px;
+}
+
+.m-bottom-5 {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+    .margin-top-bottom {
+        margin: 5px 0;
+    }
+}
+
+.m-left-10 {
+    margin-left: 10px;
+}
+
+.m-right-500 {
+    margin-right: 500px;
+}
+
+.m-right-20 {
+    margin-right: 20px;
+}
+
+.m-40 {
+    margin: 40px;
+}
+
+.m-right {
+    margin-right: 50px;
+}
+
+.m-top {
+    margin-top: 20px;
+}
+
+.m-top-10 {
+    margin-top: 10px;
+}
+
+.m-top-30 {
+    margin-top: 30px;
+}
+
+.m-bottom {
+    margin-bottom: 10px;
+}
+
+.m-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.m-left-20 {
+    margin-left: 20px;
+}
+
+.m-right-20 {
+    margin-right: 20px;
+}
+
+.m-bottom-35 {
+    margin-bottom: 35px;
+}
+
+.m-left {
+    margin-left: 40px;
+}
+
+.m-right-5 {
+    margin: 5px;
+}
+.m-right-10 {
+    margin: 10px;
+}
+.m-right-15 {
+    margin-right: 15px;
+}
+
+.m-right-10 {
+    margin-right: 10px;
+}
+
+.m-right-around-10 {
+    margin: 10px 10px 0 ;
+}
+
+/* -----------------------------------------------------------------------------------------color */
+.bg-white {
+    background-color: white;
+}
+
+.c-black {
+    color: black;
+}
+
+.c-gray {
+    color: #cfcfcf;
+}
+
+/*position relative*/
+.p-relative {
+    position: relative;
+}
+/*text center*/
+.t-align {
+    text-align: center;
+}
+
+.t-align-right {
+    text-align: right;
+}
+
+.t-align-left {
+    text-align: left;
+}
+
+.font-size {
+    font-size: 30px;
+}
+
+.font-size-40 {
+    font-size: 40px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.opacity {
+    opacity: 0.3;
+}
+
+@media (max-width: 767px) {
+    .mobile-cen-text {
+        text-align: center;
+    }
+}
+
+.fs-size {
+    font-size: 14px;
+}
+
+.fs-size-17 {
+    font-size: 17px;
+}
+/**/
+
+/*border*/
+.b-radius {
+    border-radius: 6px;
+}
+
+.b-radius-10px {
+    border-radius: 10px;
+}
+
+.border-raius-top-right-left {
+    border-radius: 10px 10px 0 0;
+}
+
+.border-none {
+    border: none;
+}
+
+.draw-border {
+    border: 1px solid #cccccc;
+}
+
+.img-radius {
+    border-radius: 50%;
+}
+/*hover*/
+.hov-text:hover,
+.active {
+    background-color: #ddd;
+}
+/*time*/
+.trans-time {
+    transition: 0.3s;
+}
+
+/*images*/
+
+.img-size {
+    width: 50px;
+    height: 50px;
+}
+
+
+.radius-img-size-10 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.img-size-100-50 {
+    width: 100px;
+    height: 50px;
+}
+
+.img-size-100-100 {
+    width: 100px;
+    height: 100px;
+}
+
+.img-size-200 {
+    width: 200px;
+    height: 200px;
+}
+
+.img-size-300 {
+    width: 305px;
+    height: 300px;
+}
+
+/*----------------------------------------------------input*/
+
+/*media 767px*/
+@media (max-width: 767px) {
+    .hide-part {
+        display: none;
+    }
+}
+/**/
+
+/* z-index*/
+
+.z-2 {
+    z-index: 2;
+}
+.z-3 {
+    z-index: 3;
+}
+.z-4 {
+    z-index: 4;
+}
+.z-5 {
+    z-index: 5;
+}
+
+/* hight */
+.hight-170 {
+    height: 170px;
+}
+
+
+/* width */
+.width-calc {
+    width: calc(100% - 50px);
+    
+}
+
+.width-calc-100 {
+    width: calc(100% - 120px);  
+}
+
+.w-width-100 {
+    width: 100%;
+}
+
+.w-width-98 {
+    width: 98%;
+}
+
+.w-width-95 {
+    width: 95%;
+}
+
+/*width in phone*/
+@media (max-width: 797px) {
+    .mobile-100-width {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .full-mobile-width {
+        width: 83%;
+    }
+}
+
+@media (max-width: 767px) {
+    .full-mobile-width-90 {
+        width: 90%;
+    }
+}
+
+/*head on phone*/
+
+@media (max-width: 991px) {
+    .full-head-middle-width {
+        width: 100%;
+    }
+}
+
+/*991*/
+@media (max-width: 991px) {
+    .wrapper-middle-screen {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }
+}
+/* full-screen*/
+@media (max-width: 1199px) {
+    .wrapper-full-screen {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }
+}
+/*text area*/
+
+.resize {
+    resize: none;
+}
+
+/* textarea */
+
+.textarea-p-20::placeholder {
+    padding: 10px;
+}
+
+/*cursor*/
+.cursor {
+    cursor: pointer;
+}
+
+.cursor-nodrop {
+    cursor: no-drop;
+}
+
+/*img size-----------------------------------------------------------------------------------*/
+/* border */
+.border-bottom {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.icons {
+    background-color: #eeeeee;
+    border-radius: 6px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+/*-----------------------------------------container--*/
+
+
